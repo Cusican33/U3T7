@@ -41,8 +41,8 @@ public class Main
 
 
         // 2. print static variables
-        System.out.println("Most Recent ID: " + Employee.getMostRecentEmployeeID());
-        System.out.println("Total Employees: " + Employee.getTotalEmployeesCreated());
+        System.out.println(Employee.getMostRecentEmployeeID());
+        System.out.println(Employee.getTotalEmployeesCreated());
 
 
         // 3. create employee2
@@ -51,8 +51,8 @@ public class Main
 
 
         // 4. print static variables again
-        System.out.println("Most Recent ID: " + Employee.getMostRecentEmployeeID());
-        System.out.println("Total Employees: " + Employee.getTotalEmployeesCreated());
+        System.out.println(Employee.getMostRecentEmployeeID());
+        System.out.println(Employee.getTotalEmployeesCreated());
 
 
         // 5. call employeeInfo again on both
@@ -78,7 +78,7 @@ public class Main
 
 
         // 9. final static variable check
-        System.out.println("Most Recent ID: " + Employee.getMostRecentEmployeeID());
-        System.out.println("Total Employees: " + Employee.getTotalEmployeesCreated());
+        System.out.println(Employee.getMostRecentEmployeeID());
+        System.out.println(Employee.getTotalEmployeesCreated());
     }
 }
